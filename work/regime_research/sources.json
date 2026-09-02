@@ -1,0 +1,119 @@
+[
+  {
+    "id": "M1",
+    "publisher": "村田製作所",
+    "title": "2025年度 第3四半期 決算説明会資料",
+    "publication_date": "2026-02-02",
+    "url": "https://corporate.murata.com/-/media/corporate/about/newsroom/news/irnews/irnews/2026/0202b/25q3-j-speach.ashx?cvid=20260202012033000000&la=ja-jp",
+    "access_date": "2026-09-02",
+    "facts_used": "サーバー向けコンデンサ増、AIサーバー搭載数・スマートフォン生産台数・円安を理由とした売上予想上方修正、SAW関連のれん減損"
+  },
+  {
+    "id": "M2",
+    "publisher": "村田製作所",
+    "title": "2025年度 決算説明会資料",
+    "publication_date": "2026-04-30",
+    "url": "https://corporate.murata.com/-/media/corporate/about/newsroom/news/irnews/irnews/2026/0430b/25q4-j-speach.ashx?cvid=20260430024820000000&la=ja-jp",
+    "access_date": "2026-09-02",
+    "facts_used": "データセンター関連売上見通し前年比85-90%増、FY2026売上7.1%増・営業利益34.8%増予想、上限1,500億円の自己株取得"
+  },
+  {
+    "id": "M3",
+    "publisher": "村田製作所",
+    "title": "2025年度 決算説明会書き起こし（説明・Q&A）",
+    "publication_date": "2026-05-01",
+    "url": "https://corporate.murata.com/-/media/corporate/about/newsroom/news/irnews/irnews/2026/0430b/25q4-j.ashx?cvid=20260501085843000000&la=ja-jp",
+    "access_date": "2026-09-02",
+    "facts_used": "MLCC受注20%超QoQ、AIサーバー実需明確化と値上げ観測による前倒し調達、ハイパースケーラー間の調達競争"
+  },
+  {
+    "id": "M4",
+    "publisher": "村田製作所",
+    "title": "2026年度 第1四半期 決算説明会資料",
+    "publication_date": "2026-07-31",
+    "url": "https://corporate.murata.com/-/media/corporate/about/newsroom/news/irnews/irnews/2026/0731d/26q1-j-speach.ashx?cvid=20260804062651000000&la=ja-jp",
+    "access_date": "2026-09-02",
+    "facts_used": "Q1売上20.7%増・営業利益59.8%増、データセンター関連売上81.1%増、通期売上7.7%・営業利益13.2%上方修正、前倒し受注への注意"
+  },
+  {
+    "id": "T1",
+    "publisher": "太陽誘電",
+    "title": "2026年3月期 第3四半期 決算説明会資料（メモ付）",
+    "publication_date": "2026-02-06",
+    "url": "https://pdf.irpocket.com/C6976/YpwX/bPB3/x0oi.pdf",
+    "access_date": "2026-09-02",
+    "facts_used": "コンデンサのAIサーバー・自動車向け需要、用途別・受注動向"
+  },
+  {
+    "id": "T2",
+    "publisher": "太陽誘電",
+    "title": "2026年3月期 決算説明会資料（メモ付）",
+    "publication_date": "2026-05-08",
+    "url": "https://pdf.irpocket.com/C6976/Kdx3/QBtb/K4S6.pdf",
+    "access_date": "2026-09-02",
+    "facts_used": "コンデンサ売上9%増、Q4コンデンサ受注26%増・BB1.31、AIサーバー・自動車需要、円安と稼働率効果"
+  },
+  {
+    "id": "T3",
+    "publisher": "太陽誘電",
+    "title": "2026年3月期 決算説明会 Q&A要旨",
+    "publication_date": "2026-05-18",
+    "url": "https://pdf.irpocket.com/C6976/WUpy/zpaE/GwVo.pdf",
+    "access_date": "2026-09-02",
+    "facts_used": "MLCC稼働率90%から95%見通し、AIサーバー需要の急変を計画に未反映、前倒し受注の可能性"
+  },
+  {
+    "id": "T4",
+    "publisher": "太陽誘電",
+    "title": "2027年3月期 第1四半期 決算説明会資料（メモ付）",
+    "publication_date": "2026-08-05",
+    "url": "https://pdf.irpocket.com/C6976/xoA3/ieAo/Bgyk/q2er.pdf",
+    "access_date": "2026-09-02",
+    "facts_used": "コンデンサ受注41%増QoQ・受注残78%増・BB1.72、通期売上10.4%・営業利益50%上方修正、AIサーバー・メモリ、顧客在庫積み増し、中国自動車需要鈍化"
+  },
+  {
+    "id": "J1",
+    "publisher": "JEITA 電子部品部会",
+    "title": "電子部品グローバル出荷統計 2026年6月動向",
+    "publication_date": "2026-08-31",
+    "url": "https://home.jeita.or.jp/cgi-bin/information/expg.cgi?ca=21&t=0",
+    "access_date": "2026-09-02",
+    "facts_used": "6月グローバル出荷25.6%増、受動部品30.5%増、中国向け26.0%増。参加約50社の集計で年度ごとに参加社数が異なる"
+  },
+  {
+    "id": "E1",
+    "publisher": "経済産業省",
+    "title": "2026年5月 鉱工業（生産・出荷・在庫）指数速報",
+    "publication_date": "2026-06-30",
+    "url": "https://www.meti.go.jp/statistics/tyo/iip/result/book/b2020_202605sj.html",
+    "access_date": "2026-09-02",
+    "facts_used": "電子部品・デバイス工業の2025年生産指数5.2%増、2026年1-3月期5.8%増"
+  },
+  {
+    "id": "B1",
+    "publisher": "日本銀行",
+    "title": "外国為替相場（東京市場・月次）",
+    "publication_date": "2026-08-05",
+    "url": "https://www.stat-search.boj.or.jp/ssi/mtshtml/fm08_m_1_en.html",
+    "access_date": "2026-09-02",
+    "facts_used": "ドル円月次系列の定義と2026年7月までの公表範囲"
+  },
+  {
+    "id": "Y1",
+    "publisher": "Yahoo Finance",
+    "title": "Murata Manufacturing Co., Ltd. (6981.T) Historical Data",
+    "publication_date": null,
+    "url": "https://finance.yahoo.com/quote/6981.T/history/",
+    "access_date": "2026-09-02",
+    "facts_used": "調整後終値・出来高。2026-09-01は前回取得済みYahoo値を再利用、2026-09-02終値は未収録"
+  },
+  {
+    "id": "Y2",
+    "publisher": "Yahoo Finance",
+    "title": "TAIYO YUDEN CO., LTD. (6976.T) Historical Data",
+    "publication_date": null,
+    "url": "https://finance.yahoo.com/quote/6976.T/history/",
+    "access_date": "2026-09-02",
+    "facts_used": "調整後終値・出来高。2026-09-01は前回取得済みYahoo値を再利用、2026-09-02終値は未収録"
+  }
+]

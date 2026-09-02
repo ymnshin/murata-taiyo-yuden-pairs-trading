@@ -1,0 +1,164 @@
+{
+  "requested_as_of": "2026-09-02",
+  "actual_data_end": "2026-09-01",
+  "rows_pair": 1385,
+  "model_first_date": "2022-01-14",
+  "universe_size": 14,
+  "candidate_pair_count": 91,
+  "low_params": {
+    "entry_z": 1.0,
+    "exit_z": 0.5,
+    "max_hold": 20,
+    "stop_z": 4.0
+  },
+  "conservative_params": {
+    "entry_z": 2.0,
+    "exit_z": 0.5,
+    "max_hold": 60,
+    "stop_z": 4.0
+  },
+  "holdout_2026": {
+    "low_always": {
+      "total_return": 0.33245587104741126,
+      "ann_return": 0.5628036238880507,
+      "ann_vol": 0.22596293827005992,
+      "sharpe": 2.0885431225596034,
+      "max_drawdown": -0.15691390382417925,
+      "trades": 11,
+      "win_rate": 0.6363636363636364,
+      "avg_holding_days": 8.454545454545455,
+      "turnover": 22.0
+    },
+    "low_structure_gate": {
+      "total_return": 0.17309528326380086,
+      "ann_return": 0.28189301848451587,
+      "ann_vol": 0.19544210646077753,
+      "sharpe": 1.367181122884161,
+      "max_drawdown": -0.1569139038241789,
+      "trades": 6,
+      "win_rate": 0.6666666666666666,
+      "avg_holding_days": 8.0,
+      "turnover": 12.0
+    },
+    "low_confirmed_gate": {
+      "total_return": 0.11661101619516101,
+      "ann_return": 0.1871731873505793,
+      "ann_vol": 0.1924761091850087,
+      "sharpe": 0.9861353670040348,
+      "max_drawdown": -0.15691390382417902,
+      "trades": 5,
+      "win_rate": 0.6,
+      "avg_holding_days": 8.8,
+      "turnover": 10.0
+    },
+    "conservative": {
+      "total_return": 0.016625423462080846,
+      "ann_return": 0.025980911544347673,
+      "ann_vol": 0.1396076566361305,
+      "sharpe": 0.2516129405970886,
+      "max_drawdown": -0.11769551305791115,
+      "trades": 1,
+      "win_rate": 1.0,
+      "avg_holding_days": 16.0,
+      "turnover": 2.0
+    }
+  },
+  "bootstrap_low_2026_trade_mean": {
+    "trades": 11,
+    "mean": 0.027217170082169406,
+    "ci_low": 0.0035177653065954434,
+    "ci_high": 0.04980111925567314,
+    "p_mean_le_zero": 0.0134
+  },
+  "offline_change_points": [
+    {
+      "min_segment": 8,
+      "date": "2026-06-19",
+      "bic_improvement": 2.2762647076474423,
+      "mean_before": -0.0007706744180456838,
+      "mean_after": 0.01821770752187631,
+      "ann_mean_before": -0.04007506973837556,
+      "ann_mean_after": 0.9473207911375681
+    },
+    {
+      "min_segment": 13,
+      "date": "2026-02-06",
+      "bic_improvement": 2.1806157723174238,
+      "mean_before": -0.0019595348159303087,
+      "mean_after": 0.010759853538357157,
+      "ann_mean_before": -0.10189581042837606,
+      "ann_mean_after": 0.5595123839945721
+    },
+    {
+      "min_segment": 21,
+      "date": "2026-02-06",
+      "bic_improvement": 2.1806157723174238,
+      "mean_before": -0.0019595348159303087,
+      "mean_after": 0.010759853538357157,
+      "ann_mean_before": -0.10189581042837606,
+      "ann_mean_after": 0.5595123839945721
+    }
+  ],
+  "offline_break_date_range": [
+    "2026-02-06",
+    "2026-06-19"
+  ],
+  "gate_info": {
+    "structural": {
+      "activations": [
+        "2022-01-21",
+        "2022-05-13",
+        "2022-06-17",
+        "2023-01-20",
+        "2024-10-04",
+        "2024-12-27",
+        "2026-03-19",
+        "2026-05-15",
+        "2026-06-26"
+      ],
+      "first_2026_activation": "2026-03-19",
+      "latest_state": true,
+      "latest_week": "2026-09-01"
+    },
+    "confirmed": {
+      "activations": [
+        "2024-10-04",
+        "2026-05-15",
+        "2026-06-26"
+      ],
+      "first_2026_activation": "2026-05-15",
+      "latest_state": true,
+      "latest_week": "2026-09-01"
+    }
+  },
+  "latest_diagnostics": {
+    "corr126": 0.8306290953962535,
+    "beta252": 0.7883106284184679,
+    "beta_cv": 0.2140101438470879,
+    "adf_p252": 0.002448420738501235,
+    "eg_p252": 0.011370085363794413,
+    "half_life252": 11.267380556970721,
+    "resid_sigma252": 0.07833119599877987,
+    "zero_cross126": 18.0,
+    "opportunities63": 6.0,
+    "trail126_sharpe": 2.178437133627659,
+    "trail126_return": 0.2840503331075297,
+    "trail126_trades": 9.0,
+    "trail126_win_rate": 0.6666666666666666,
+    "gate_structural": true,
+    "gate_confirmed": true
+  },
+  "pair_first_eligible_month": "2026-08-31",
+  "pair_first_shortlist_month": "2026-08-31",
+  "pair_latest_rank": 1,
+  "pair_latest_eligible": true,
+  "pair_latest_shortlist": true,
+  "versions": {
+    "python": "3.12.13",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "pandas": "3.0.5",
+    "numpy": "2.5.2",
+    "yfinance": "1.7.0",
+    "statsmodels": "0.15.0"
+  }
+}

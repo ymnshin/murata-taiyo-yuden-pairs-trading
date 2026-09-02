@@ -1,2 +1,51 @@
-# murata-taiyo-yuden-pairs-trading
-Reproducible regime-aware pairs-trading research for Murata Manufacturing and Taiyo Yuden.
+# 村田製作所 × 太陽誘電 ペアトレード研究
+
+村田製作所（6981.T）と太陽誘電（6976.T）を対象に、平均回帰型ペアトレードのバックテスト、レジーム判定、同業ペアの探索方法を検証した研究リポジトリです。分析基準日は2026年9月2日、価格データの最終共通日は2026年9月1日です。
+
+完成版レポートは [`outputs/murata_taiyo_yuden_regime_pair_strategy_report.pdf`](outputs/murata_taiyo_yuden_regime_pair_strategy_report.pdf) にあります。
+
+## 主な結果
+
+- 2026年の低閾値・常時稼働戦略は、取引コストと借株料控除後でリターン `+33.25%`、Sharpe `2.09`、最大ドローダウン `-15.69%`、11取引でした。
+- 構造レジームで新規エントリーのみを許可する戦略は、リターン `+17.31%`、Sharpe `1.37`、6取引でした。
+- 事後的な変化点は2026年2月6日～6月19日、利用可能情報だけによる構造ゲートの初回点灯は3月19日、収益確認ゲートは5月15日でした。
+- 2022～2025年の成績は弱く、2026年も標本数が少ないため、結果は本番運用可能な普遍的優位性を証明するものではありません。
+
+通常のレジームOFFは「新規エントリー停止」として扱い、既存ポジションを機械的に強制決済しない設計が重要でした。詳細なPDCA、社会・業界要因、検定、コスト感応度、探索フローはPDFを参照してください。
+
+## 実行方法
+
+Python 3.11以降を推奨します。
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install -r requirements.txt
+python work/regime_research/analyze_regime.py
+python work/regime_research/build_regime_report.py
+```
+
+分析スクリプトはYahoo Financeから14銘柄の日次価格・出来高を取得し、派生CSVとチャートを再生成します。レポート生成スクリプトはその出力と、コミット済みのイベント・情報源メタデータを使います。Yahoo Finance側の訂正や取得タイミングにより、将来の再実行結果が保存済み結果と完全一致しない場合があります。
+
+## 収録内容
+
+- `work/regime_research/analyze_regime.py`: データ取得、ローリング回帰、戦略、レジーム、ペア探索、検証
+- `work/regime_research/build_regime_report.py`: PDF生成
+- `work/regime_research/analysis_summary.json`: 主要指標の集計
+- `work/regime_research/validation_checks.json`: 先読み、執行ラグ、エクスポージャー等の検証結果
+- `work/regime_research/*.csv`: 主要な取引、感応度、レジーム、ランキング、イベント出力
+- `work/regime_research/sources.json`: 使用した公開情報源のURLと注記
+- `outputs/murata_taiyo_yuden_regime_pair_strategy_report.pdf`: 完成版レポート
+
+生の価格キャッシュ、一次資料の複製、レンダリング確認画像、全91ペアの大容量中間表はコミットしていません。これらは再実行時に生成または取得されます。
+
+## 方法上の注意
+
+- 売買シグナルは翌営業日の終値で執行し、基本ケースでは片道10bp相当の取引コストと年1%の借株料を反映しています。
+- 銘柄ユニバースは研究日時点で知られている14社を固定しているため、サバイバーシップ・バイアスがあります。
+- 厳格な月次スクリーニングでこのペアが適格になったのは2026年8月31日であり、2026年初からの成績を事前に獲得できたことを意味しません。
+- 低閾値ルールの2026年成績は、事後選択や単一レジームへの依存を完全には排除できません。
+
+## 免責事項
+
+本リポジトリは調査・教育目的であり、投資助言、売買推奨、将来収益の保証ではありません。税金、実際の板・スリッページ、借株在庫、配当、決算ギャップ、取引制限等は実運用と異なる可能性があります。投資判断は利用者自身の責任で行ってください。

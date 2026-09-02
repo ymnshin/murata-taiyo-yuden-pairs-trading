@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.env
+
+# Generated research caches and QA artifacts
+work/regime_research/data/
+work/regime_research/sources/
+work/regime_research/rendered/
+work/regime_research/charts/
+work/regime_research/mplconfig/
+work/regime_research/rerun.log
+work/regime_research/monthly_pair_screen_all.csv
+work/regime_research/pair_rolling_model.csv
+
+# Daily strategy outputs are reproducible; retain only the report input snapshot.
+work/regime_research/2026_*_daily.csv
+!work/regime_research/2026_low_always_daily.csv
+
+# Publish only the final report from outputs.
+outputs/*
+!outputs/murata_taiyo_yuden_regime_pair_strategy_report.pdf

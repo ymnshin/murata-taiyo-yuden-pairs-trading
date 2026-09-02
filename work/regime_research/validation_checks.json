@@ -1,0 +1,17 @@
+{
+  "data_cutoff_requested": "2026-09-02",
+  "latest_common_pair_date": "2026-09-01",
+  "latest_date_not_after_requested": true,
+  "no_missing_pair_prices": true,
+  "positive_pair_prices": true,
+  "max_abs_pnl_reconstruction_error": 0.0,
+  "gross_exposure_max": 1.0,
+  "gross_exposure_nonzero_min": 1.0,
+  "trade_count_equals_entries": true,
+  "trade_count": 11,
+  "one_day_execution_lag": true,
+  "monthly_screen_uses_dates_through_cutoff": true,
+  "screen_pair_count_latest": 91,
+  "screen_universe_size": 14,
+  "screen_survivorship_warning": "Universe is frozen using firms known at the 2026-09-02 research date; delisted/merged historical names are absent."
+}
